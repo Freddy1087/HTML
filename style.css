@@ -1,3 +1,24 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+} /* "*" selector selects all elements */
+
 body {
-  background-color: green;
-}
+  background-color: rgb(62, 148, 62);
+  font-family: Arial;
+  font-size: 18px;
+} /* changes the style of the body */
+
+h1 {
+  font-size: 40px;
+} /* changes the font size for h1 */
+
+.first {
+  color: white;
+} /* changes the text color for any paragraphs with the "first" class  */
+
+#your-name {
+  background-color: rgb(184, 142, 6);
+  border: 5px solid #444;
+} /* changes specifically to the unique ID "your-name" */
